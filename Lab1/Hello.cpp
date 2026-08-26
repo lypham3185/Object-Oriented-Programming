@@ -1,3 +1,6 @@
+//Ly Pham
+//2310.02 - Object-Oriented Programming
+//Coding Assignment 1 - Setup
 #include <iostream>
 #include <cstdlib>
 using namespace std;
