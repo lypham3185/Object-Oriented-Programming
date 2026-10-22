@@ -1,5 +1,3 @@
-// RPG.h
-// Ly
 #ifndef RPG_H
 #define RPG_H
 
@@ -20,6 +18,9 @@ class RPG {
         // mutators
         bool isAlive() const;
         void setHitsTaken(int new_hits);
+        void setName(string name);
+        void updateExpLevel();
+        void attack(RPG * opponent);
 
         // accessors
         string getName() const;
@@ -27,6 +28,8 @@ class RPG {
         float getLuck() const;
         float getExp() const;
         int getLevel() const;
+
+        void printStats();
 
     private:
         string name;
